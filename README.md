@@ -4,33 +4,40 @@ This project focuses on analyzing and forecasting the demand for bicycles using 
 
 ## Project Overview
 
-The dataset used for this project comes from **Capital Bike Share**, a bike-sharing program based in Washington D.C. Bike-sharing programs like Capital Bike Share have become increasingly popular as cities aim to reduce traffic congestion, promote sustainable transport, and provide convenient alternatives to traditional commuting. By predicting demand for bikes, bike-sharing services can optimize operations, improve fleet management, and enhance user experience.
+### About Capital Bike Share
 
-### Objective:
-The main objective of this project is to:
-- **Analyze** the factors that influence bike demand, such as time, weather, and seasonal trends.
-- **Develop predictive models** to forecast the number of bikes required at different times of the day or week.
-- **Visualize** areas of high and low demand using mapping techniques.
-- **Provide actionable insights** that can help improve the operational efficiency of the Capital Bike Share program.
+   - Capital Bike Share is a bike-sharing program based in the Washington, D.C. metropolitan area. The system allows users to rent and return various types of bicycles throughout the city. The bikes are available for with different pricing options for members and casual riders.
+   - for more information: (https://capitalbikeshare.com/)
 
-## Dataset Information
+   This project uses two key datasets:
 
-The dataset used for this project is the **full dataset** of Capital Bike Share, which contains information about ride-level details. The dataset includes features such as:
-- Date and time of the ride
-- Weather conditions
-- Temperature, humidity, and season
-- Day of the week and hour of the day
-- The number of bikes rented and returned
+1. **Capital Bike Share Ride Dataset (`CBS_2021-2023_Full.csv`)**:  
+   Rides dataset contains detailed information about each bike ride, including:
+   - **Rideable Type**: Type of bike (classic, electric, docked)
+   - **Member or Casual**: Whether the rider is a member or casual
+   - **Start and End Dates and Times**: `started_at` and `ended_at`
+   - **Station Information**: `start_station_name`, `end_station_name`, `start_station_id`, `end_station_id`
+   - **Geo Locations**: `start_lat`, `start_lng`, `end_lat`, `end_lng`
+   
+2. **Hourly Weather Dataset(`CBS_2021-2023_Hourly_Weather`)**:
+   The weather data includes hourly information about:
+   - **Humidity**: The humidity level
+   - **Temperature**: The temperature at the time of the ride
+   - **WMO Code**: The World Meteorological Organization code
+   - **Windspeed**: The windspeed at the time of the ride
 
-You can find the hourly weather dataset here but you will need to download the dataset for bike rides from **Google Drive**. 
-The file is stored as `CBS_2021-2023_Full.csv` and should be placed in your project directory to run the analysis.
+### Download Instructions:
 
-### How to Access Data for Bike Rides
-1. Download the dataset from [Google Drive](http://bit.ly/3Z1pzFJ).
-   - The dataset is stored in a CSV file: `CBS_2021-2023_Full.csv`.
-   - You may need to request access if the link is restricted.
+1. **Capital Bike Share Ride Dataset (`CBS_2021-2023_Full.csv`)**:  
+   Download the full ride dataset from **Google Drive**:  
+   [Download Dataset from Google Drive](http://bit.ly/3Z1pzFJ)
 
-2. After downloading, place the CSV file in the project directory where the Python scripts are located.
+2. **Hourly Weather Dataset(`CBS_2021-2023_Hourly_Weather`)**:
+   You can download the weather dataset directly from GitHub.
+
+### How to Use:
+
+- Place both downloaded files in the project directory to use the analysis scripts.
 
 ## Tools and Techniques
 - **Python** for data analysis and machine learning model development.
