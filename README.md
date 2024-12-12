@@ -1,13 +1,19 @@
 # Capital Bike Share Demand Forecasting
 
-This project focuses on analyzing and forecasting the demand for bicycles using the **Capital Bike Share** dataset. The goal is to leverage machine learning models to help **Capital Bike Share** improve their services by predicting future demand based on factors such as time of day, day of the week, season, and weather conditions.
+This project focuses on analyzing and forecasting the demand for bicycles using the Capital Bike Share dataset. The goal is to leverage machine learning models to help Capital Bike Share improve their services by predicting future demand based on factors such as time of day, day of the week, season, and weather conditions.
 
 ## Project Overview
 
 ### About Capital Bike Share
 
-   - Capital Bike Share is a bike-sharing program based in the Washington, D.C. metropolitan area. The system allows users to rent and return various types of bicycles throughout the city. The bikes are available for with different pricing options for members and casual riders.
+   - Capital Bike Share is a bike-sharing program based in the Washington, D.C. metropolitan area. The system allows users to rent and return bicycles throughout the city, offering different pricing options for members and casual riders.
    - for more information: (https://capitalbikeshare.com/)
+
+### Project Goals and Scope
+
+   - The analysis focuses on classic bikes, as they provide more consistent data for station-based usage.
+   - Machine learning models will be developed to predict bike demand, offering actionable insights to optimize bike availability and station efficiency.
+   - A Tableau dashboard will be created to review station usage, evaluate efficiency, and support system improvements.
 
    This project uses two key datasets:
 
@@ -26,6 +32,10 @@ This project focuses on analyzing and forecasting the demand for bicycles using 
    - **WMO Code**: The World Meteorological Organization code
    - **Windspeed**: The windspeed at the time of the ride
 
+   - WMO codes in the weather data range from 00 to 99, with each code representing specific weather conditions.
+   - A detailed explanation can be found at: (https://www.meteopool.org/en/encyclopedia-wmo-ww-wx-code-id2)
+   
+
 ### Download Instructions:
 
 1. **Capital Bike Share Ride Dataset (`CBS_2021-2023_Full.csv`)**:  
@@ -42,17 +52,15 @@ This project focuses on analyzing and forecasting the demand for bicycles using 
 ## Tools and Techniques
 - **Python** for data analysis and machine learning model development.
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn for data analysis and visualization, Scikit-learn for machine learning, and Folium/Plotly for mapping visualizations.
+- **Tableau** for creating dashboards to review station usage and efficiency.
 - **Modeling**: Experiment with regression models, time series forecasting, and other machine learning techniques to predict bike demand.
 
 ## Project Steps:
 1. **Data Exploration & Cleaning**: Analyze the dataset, handle missing data, remove outliers, and engineer relevant features.
 2. **Exploratory Data Analysis (EDA)**: Explore relationships between features and bike demand using statistical analysis and visualizations.
 3. **Model Building**: Develop machine learning models to predict bike demand. Try different models and evaluate their performance.
-4. **Visualization**: Use mapping techniques to visualize areas of high and low demand, and identify patterns in bike usage across different times and locations.
-5. **Insights & Recommendations**: Provide actionable insights that can assist Capital Bike Share in improving operations, increasing efficiency, and enhancing user experience.
-
-## End Goal:
-By the end of this project, the goal is to have a predictive model (or models) capable of accurately forecasting demand for bikes. The model(s) can be used by Capital Bike Share to optimize the availability of bikes across different stations, improve service delivery, and better plan for periods of high or low demand.
+4. **Visualization**: Use Tableau to visualize areas of high and low demand, and identify patterns in bike usage across different times and locations.
+5. **Insights & Recommendations**: Provide actionable insights to improve operations, increase efficiency, and enhance user experience.
 
 ## License
 
