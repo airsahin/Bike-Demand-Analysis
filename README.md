@@ -16,8 +16,6 @@
 - **Predictive Modeling**: Develop linear regression models to forecast bike demand and related metrics, assisting in operational planning and resource allocation.
 - **Data Visualization**: Create an interactive Tableau dashboard using a representative sample of the dataset to explore trends in ride patterns, user behavior, and bike types.
 
-## Bike Demand Dashboard
-
    [Click here to view the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/emre.sahin1866/viz/BikeDemandDashboard/Dashboard)
 
 
