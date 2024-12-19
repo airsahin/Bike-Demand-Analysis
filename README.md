@@ -18,8 +18,6 @@
 
 ## Bike Demand Dashboard
 
-- You can view the interactive dashboard on Tableau Public here:
-
    [Click here to view the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/emre.sahin1866/viz/BikeDemandDashboard/Dashboard)
 
 
