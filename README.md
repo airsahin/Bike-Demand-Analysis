@@ -11,7 +11,7 @@
 
 ### Project Goals and Scope
 
-     This project analyzes bike-sharing data to derive actionable insights and predict demand trends using machine learning models. Key objectives include:
+   - This project analyzes bike-sharing data to derive actionable insights and predict demand trends using machine learning models. Key objectives include:
 
 - **Predictive Modeling**: Develop linear regression models to forecast bike demand and related metrics, assisting in operational planning and resource allocation.
 - **Data Visualization**: Create an interactive Tableau dashboard using a representative sample of the dataset to explore trends in ride patterns, user behavior, and bike types.
