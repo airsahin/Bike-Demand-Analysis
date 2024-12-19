@@ -1,6 +1,6 @@
 # Capital Bike Share Demand Forecasting
 
-This project focuses on analyzing and forecasting the demand for bicycles using the Capital Bike Share dataset. The goal is to leverage machine learning models by predicting future demand based on factors such as time of day, day of the week, season, and weather conditions.
+- This project focuses on analyzing and forecasting the demand for bicycles using the Capital Bike Share dataset. The goal is to leverage machine learning models by predicting future demand based on factors such as time of day, day of the week, season, and weather conditions.
 
 ## Project Overview
 
