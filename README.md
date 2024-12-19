@@ -16,9 +16,9 @@
 - **Predictive Modeling**: Develop linear regression models to forecast bike demand and related metrics, assisting in operational planning and resource allocation.
 - **Data Visualization**: Create an interactive Tableau dashboard using a representative sample of the dataset to explore trends in ride patterns, user behavior, and bike types.
 - **Key Performance Indicators (KPIs)**: Identify and analyze key metrics such as:
-  - **Ride Duration Trends**: Identify how average ride durations vary across different user and bike types.
-  - **Bike Type Preference**: Analyze how the distribution of rides across bike types has shifted over time.
-  - **Peak Hour Utilization**: Determine the most popular hours for bike usage, segmented by key user behaviors.
+  - **Ride Duration Trends**: Measure the average ride duration per user type (Member, Casual) and bike type (Classic, E-Bike) across different months/years.
+  - **Bike Type Preference**: Measure the percentage change in the distribution of rides between bike types (Classic, E-Bike) over time (yearly or quarterly)
+  - **Peak Hour Utilization**: Identify the most popular usage hours for Members and Casual users, and track the change in bike usage during peak and off-peak hours.
 
    This project uses two key datasets:
 
