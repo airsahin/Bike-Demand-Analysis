@@ -11,9 +11,14 @@ This project focuses on analyzing and forecasting the demand for bicycles using 
 
 ### Project Goals and Scope
 
-   - The analysis focuses on classic bikes, as they provide more consistent data for station-based usage.
-   - Machine learning models will be developed to predict bike demand, offering actionable insights to optimize bike availability and station efficiency.
-   - A Tableau dashboard will be created to review station usage, evaluate efficiency, and support system improvements.
+     - This project analyzes bike-sharing data to derive actionable insights and predict demand trends using machine learning models. Key objectives include:
+
+    Predictive Modeling: Develop linear regression models to forecast bike demand and related metrics, assisting in operational planning and resource allocation.
+    Data Visualization: Create an interactive Tableau dashboard using a representative sample of the dataset to explore trends in ride patterns, user behavior, and bike types.
+    Key Performance Indicators (KPIs): Identify and analyze key metrics such as:
+        * Ride Duration Trends: Identify how average ride durations vary across different user and bike types.
+        * Bike Type Preference: Analyze how the distribution of rides across bike types has shifted over time.
+        * Peak Hour Utilization: Determine the most popular hours for bike usage, segmented by key user behaviors.
 
    This project uses two key datasets:
 
